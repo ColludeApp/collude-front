@@ -9,8 +9,8 @@ mat-toolbar{
 }
 
 .op-header-cover {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 2% 3%;
+  background: rgba(63, 63, 63, 0.09);
+  padding: 2% 8%;
 }
 
 .op-header {
@@ -20,8 +20,7 @@ mat-toolbar{
 }
 
 .op-main-head {
-  margin-top: 12%;
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
@@ -33,4 +32,11 @@ mat-toolbar{
 .op-main-head-button{
   padding: 1%;
   font-size: 1.2em;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.op-main-signup-form{
+  margin-top: 4%;
+  padding: 8% 0%;
 }
