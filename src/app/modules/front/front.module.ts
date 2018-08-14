@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LandingComponent } from './landing/landing.component';
 import { MaterialModule } from '../material/material.module';
+import { SignupFormComponent } from './signup-form/signup-form.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,6 @@ import { MaterialModule } from '../material/material.module';
   exports: [
     LandingComponent
   ],
-  declarations: [LandingComponent]
+  declarations: [LandingComponent, SignupFormComponent]
 })
 export class FrontModule { }
