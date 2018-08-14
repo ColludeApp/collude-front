@@ -1,0 +1,36 @@
+.op-spacer{
+  flex: 1 1 auto;
+}
+
+mat-toolbar{
+  min-height: 52px;
+  height: 54px;
+  font-family: inherit;
+}
+
+.op-header-cover {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2% 3%;
+}
+
+.op-header {
+  background: url('./../../../../assets/img/hero.png');
+  min-height: 600px;
+  background-size: cover;
+}
+
+.op-main-head {
+  margin-top: 12%;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.op-main-head-highlight {
+  color: #ff0266 !important;
+  font-weight: bold;
+}
+
+.op-main-head-button{
+  padding: 1%;
+  font-size: 1.2em;
+}
