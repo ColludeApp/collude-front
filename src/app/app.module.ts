@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '../../node_modules/@angular/router';
+import { DashboardModule } from './modules/dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { RouterModule } from '../../node_modules/@angular/router';
   imports: [
     BrowserModule,
     FrontModule,
+    DashboardModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(opRoutes)
   ],
