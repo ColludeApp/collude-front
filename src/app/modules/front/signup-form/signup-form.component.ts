@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignupFormComponent implements OnInit {
 
-  constructor() { }
+  public loginFormHide:boolean;
+
+  constructor() {
+    this.loginFormHide = true;
+   }
 
   ngOnInit() {
+  }
+
+  public toggleLoginFormHide(): void {
+    this.loginFormHide = !this.loginFormHide;
   }
 
 }

@@ -1,4 +1,4 @@
-<div fxLayout fxFlex fxLayoutAlign="center center">
+<div *ngIf="loginFormHide" fxLayout fxFlex fxLayoutAlign="center center" class="animated fadeIn">
   <form fxFlex="90" fxLayout="column">
     <mat-form-field fxFlex>
       <input matInput placeholder="Name">
@@ -16,8 +16,27 @@
     <div fxLayout>
       <button mat-raised-button color="primary" fxFlex class="op-signup-button">Get Started</button>
     </div>
-    <p align="center">Are have an account?
-      <a href="#">Login</a>
+    <p align="center">Already have an account?
+      <a href="#" (click)="toggleLoginFormHide()">Login</a>
+    </p>
+  </form>
+</div>
+
+<div *ngIf="!loginFormHide" fxLayout fxFlex fxLayoutAlign="center center" class="animated fadeIn">
+  <form fxFlex="90" fxLayout="column">
+    <mat-form-field fxFlex>
+      <input matInput placeholder="Email">
+    </mat-form-field>
+    <mat-form-field fxFlex>
+      <input matInput placeholder="Password">
+    </mat-form-field>
+    <br/>
+    <div fxLayout>
+      <button mat-raised-button color="primary" fxFlex class="op-signup-button">Get Started</button>
+    </div>
+    <p align="center">
+      <a href="#">Forgot Password</a> |
+      <a href="#" (click)="toggleLoginFormHide()">Sign Up</a>
     </p>
   </form>
 </div>
