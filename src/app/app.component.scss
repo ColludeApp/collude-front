@@ -1,7 +1,11 @@
 @import './../theme/opinionize-theme';
 
 .op-spacer{
-  flex: 1 1 auto;
+  flex: 0.77 1 auto;
+}
+
+.op-spacer-logo {
+  flex: 0.115 1 auto;
 }
 
 mat-toolbar{
