@@ -7,5 +7,20 @@
 mat-toolbar{
   min-height: 52px;
   height: 54px;
-  font-family: inherit;
+  font-family: inherit !important;
+}
+
+button {
+  font-family: inherit !important;
+}
+
+.op-profile-toggle-img, .op-profile-toggle-btn {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.op-profile-toggle-btn {
+  padding: 0;
+  margin-left: 20px;
 }
