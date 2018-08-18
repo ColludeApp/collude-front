@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RouterModule } from '../../../../node_modules/@angular/router';
 import { DisplayPostsComponent } from './display-posts/display-posts.component';
+import { IdeaDetailComponent } from './idea-detail/idea-detail.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,6 @@ import { DisplayPostsComponent } from './display-posts/display-posts.component';
     RouterModule,
     FlexLayoutModule
   ],
-  declarations: [DashboardComponent, DisplayPostsComponent]
+  declarations: [DashboardComponent, DisplayPostsComponent, IdeaDetailComponent]
 })
 export class DashboardModule { }
