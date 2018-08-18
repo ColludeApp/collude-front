@@ -1,3 +1,36 @@
-<p>
-  display-posts works!
-</p>
+<div fxLayout fxFlex="90" fxFlexOffset="5">
+  <div fxLayout fxFlex="25">
+    <mat-card fxLayout="column" fxFlex class="op-idea-cards">
+      <img src="https://pixabay.com/get/e834b1062dfc093ed1584d05fb0938c9bd22ffd41cb2154493f0c07aae/turntable-1109588_1280.jpg"
+        alt="" class="op-idea-card-author-image" />
+      <div fxLayout="column" fxFlex class="op-idea-card-data">
+        <h2 class="op-idea-card-head">Tweet-Rand</h2>
+        <small class="op-idea-card-description">Application to tweet random stuff</small>
+        <br/>
+        <div fxLayout fxFlex class="op-engagements" fxLayoutAlign="center center">
+          <div fxFlex="33" class="op-engagement-icon">
+            <i class="material-icons">
+              mode_comment
+            </i>
+            <br/> 25
+          </div>
+          <div fxFlex="33" class="op-engagement-icon">
+            <i class="material-icons">
+              thumbs_up
+            </i>
+            <br/> 100
+          </div>
+          <div fxFlex="33" class="op-engagement-icon">
+            <i class="material-icons">
+              thumbs_down
+            </i>
+            <br/> 5
+          </div>
+        </div>
+      </div>
+      <div fxLayout="column" fxFlex="12" class="op-idea-card-btn">
+        <button mat-stroked-button color="primary" fxFlex>View Discussion</button>
+      </div>
+    </mat-card>
+  </div>
+</div>
