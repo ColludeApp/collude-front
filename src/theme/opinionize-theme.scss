@@ -9,3 +9,7 @@ $op-theme-warn: mat-palette($mat-red);
 $op-theme: mat-light-theme($op-theme-primary, $op-theme-accent, $op-theme-warn);
 
 @include angular-material-theme($op-theme);
+
+$primary: #0091EA;
+$accent: #E65100;
+$gray: #454545;
