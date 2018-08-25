@@ -26,6 +26,7 @@ mat-card {
   min-height: 350px;
   font-family: inherit;
   color: #5e5e5e;
+  box-shadow: none;
 }
 
 .op-idea-card-author-image {
@@ -47,5 +48,5 @@ mat-card {
 }
 
 .op-idea-card-btn > a{
-  margin-top: 5px;
+  border: none;
 }
